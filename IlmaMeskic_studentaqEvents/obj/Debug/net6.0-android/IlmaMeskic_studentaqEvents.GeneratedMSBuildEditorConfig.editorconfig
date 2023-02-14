@@ -1,0 +1,41 @@
+is_global = true
+build_property.TargetFramework = net6.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = IlmaMeskic_studentaqEvents
+build_property.ProjectDir = C:\Users\Ilma\Desktop\fax\rma\rma\IlmaMeskic_studentaqEvents\IlmaMeskic_studentaqEvents\
+
+[C:/Users/Ilma/Desktop/fax/rma/rma/IlmaMeskic_studentaqEvents/IlmaMeskic_studentaqEvents/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IlmaMeskic_studentaqEvents.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Ilma/Desktop/fax/rma/rma/IlmaMeskic_studentaqEvents/IlmaMeskic_studentaqEvents/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IlmaMeskic_studentaqEvents.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Ilma/Desktop/fax/rma/rma/IlmaMeskic_studentaqEvents/IlmaMeskic_studentaqEvents/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IlmaMeskic_studentaqEvents.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Ilma/Desktop/fax/rma/rma/IlmaMeskic_studentaqEvents/IlmaMeskic_studentaqEvents/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IlmaMeskic_studentaqEvents.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Ilma/Desktop/fax/rma/rma/IlmaMeskic_studentaqEvents/IlmaMeskic_studentaqEvents/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IlmaMeskic_studentaqEvents.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

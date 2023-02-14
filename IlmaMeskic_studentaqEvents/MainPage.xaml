@@ -1,0 +1,545 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IlmaMeskic_studentaqEvents.MainPage"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="WhiteSmoke">
+
+    <ScrollView>
+        <VerticalStackLayout
+            >
+
+            <HorizontalStackLayout
+                BackgroundColor="Black">
+
+                <Image
+                Source="kompanijalogo.png"
+                HorizontalOptions="Start"
+                Margin="2,5,10,5"
+                BackgroundColor="Black"
+                WidthRequest="180"
+                
+                >
+
+                </Image>
+
+                <Label
+                    Text="PLANER"
+                    TextColor="White"
+                    FontAttributes="Bold"
+                    HorizontalTextAlignment="End"
+                    VerticalTextAlignment="Center"
+                    FontSize="20">
+                    
+                </Label>
+
+            </HorizontalStackLayout>
+
+            
+
+            <HorizontalStackLayout>
+                <Label
+                    
+                    Margin="8,0,2,0"
+                        Text="dobro dosli "
+                        TextColor="Black"
+                        FontSize="15">
+
+                </Label>
+
+                <Label
+                        Text="Ilma Meskic"
+                        TextColor="Black"
+                        FontSize="15"
+                        FontAttributes="Bold">
+
+                </Label>
+
+                
+            </HorizontalStackLayout>
+            
+            <Label
+                Text="USLUGE"
+                HorizontalOptions="Center"
+                TextColor="Gray">
+                
+            </Label>
+
+            <HorizontalStackLayout
+                Spacing="5">
+
+                <VerticalStackLayout
+                    Spacing="5">
+
+                    <Frame
+                        HeightRequest="135"
+                        WidthRequest="120">
+
+                        <VerticalStackLayout>
+
+                            <Image
+                                x:Name="slika1"
+                                WidthRequest="50"
+                                HeightRequest="50"
+                                BackgroundColor="Black"
+                                Margin="0,-2,0,0">
+                                
+                            </Image>
+
+                            <CheckBox
+                            x:Name="check1"
+                            HorizontalOptions="Center"
+                            BackgroundColor="Transparent"
+                            IsChecked="{Binding listVrstaUsluge[0].Ugovorena}"
+                                Margin="0,0,0,-4">
+
+                            </CheckBox>
+
+                            <Label
+                                x:Name="label1"
+                                HorizontalTextAlignment="Center"
+                                TextColor="Gray"
+                                FontAttributes="Bold"
+                                FontSize="7">
+                                
+                            </Label>
+
+                        </VerticalStackLayout>
+                        
+                    </Frame>
+
+
+                    <Frame
+                        HeightRequest="135"
+                        WidthRequest="120">
+
+                        <VerticalStackLayout>
+
+                            <Image
+                                x:Name="slika4"
+                                WidthRequest="50"
+                                HeightRequest="50"
+                                BackgroundColor="Black"
+                                Margin="0,-2,0,0">
+
+                            </Image>
+
+                            <CheckBox
+                            x:Name="check4"
+                            HorizontalOptions="Center"
+                            BackgroundColor="Transparent"
+                            IsChecked="{Binding listVrstaUsluge[3].Ugovorena}"
+                                Margin="0,0,0,-4">
+
+                            </CheckBox>
+
+                            <Label
+                                x:Name="label4"
+                                HorizontalTextAlignment="Center"
+                                TextColor="Gray"
+                                FontAttributes="Bold"
+                                FontSize="7">
+
+                            </Label>
+
+                        </VerticalStackLayout>
+
+                    </Frame>
+
+                </VerticalStackLayout>
+
+
+                <VerticalStackLayout
+                    Spacing="5">
+
+                    <Frame
+                        HeightRequest="135"
+                        WidthRequest="120">
+
+                        <VerticalStackLayout>
+
+                            <Image
+                                x:Name="slika2"
+                                WidthRequest="50"
+                                HeightRequest="50"
+                                BackgroundColor="Black"
+                                Margin="0,-2,0,0">
+
+                            </Image>
+
+                            <CheckBox
+                            x:Name="check2"
+                            HorizontalOptions="Center"
+                            BackgroundColor="Transparent"
+                            IsChecked="{Binding listVrstaUsluge[1].Ugovorena}"
+                                Margin="0,0,0,-4">
+
+                            </CheckBox>
+
+                            <Label
+                                x:Name="label2"
+                                HorizontalTextAlignment="Center"
+                                TextColor="Gray"
+                                FontAttributes="Bold"
+                                FontSize="7">
+
+                            </Label>
+
+                        </VerticalStackLayout>
+
+                    </Frame>
+
+
+                    <Frame
+                        HeightRequest="135"
+                        WidthRequest="120">
+
+                        <VerticalStackLayout>
+
+                            <Image
+                                x:Name="slika5"
+                                WidthRequest="50"
+                                HeightRequest="50"
+                                BackgroundColor="Black"
+                                Margin="0,-2,0,0">
+
+                            </Image>
+
+                            <CheckBox
+                            x:Name="check5"
+                            HorizontalOptions="Center"
+                            BackgroundColor="Transparent"
+                            IsChecked="{Binding listVrstaUsluge[4].Ugovorena}"
+                                Margin="0,0,0,-4">
+
+                            </CheckBox>
+
+                            <Label
+                                x:Name="label5"
+                                HorizontalTextAlignment="Center"
+                                TextColor="Gray"
+                                FontAttributes="Bold"
+                                FontSize="7">
+
+                            </Label>
+
+                        </VerticalStackLayout>
+
+                    </Frame>
+
+                </VerticalStackLayout>
+
+
+                <VerticalStackLayout
+                    Spacing="5">
+
+                    <Frame
+                        HeightRequest="135"
+                        WidthRequest="120">
+
+                        <VerticalStackLayout>
+
+                            <Image
+                                x:Name="slika3"
+                                WidthRequest="50"
+                                HeightRequest="50"
+                                BackgroundColor="Black"
+                                Margin="0,-2,0,0">
+
+                            </Image>
+
+                            <CheckBox
+                            x:Name="check3"
+                            HorizontalOptions="Center"
+                            BackgroundColor="Transparent"
+                            IsChecked="{Binding listVrstaUsluge[2].Ugovorena}"
+                                Margin="0,0,0,-4">
+
+                            </CheckBox>
+
+                            <Label
+                                x:Name="label3"
+                                HorizontalTextAlignment="Center"
+                                TextColor="Gray"
+                                FontAttributes="Bold"
+                                FontSize="7">
+
+                            </Label>
+
+                        </VerticalStackLayout>
+
+                    </Frame>
+
+
+                    <Frame
+                        HeightRequest="135"
+                        WidthRequest="120">
+
+                        <VerticalStackLayout>
+
+                            <Image
+                                x:Name="slika6"
+                                WidthRequest="50"
+                                HeightRequest="50"
+                                BackgroundColor="Black"
+                                Margin="0,-2,0,0">
+
+                            </Image>
+
+                            <CheckBox
+                            x:Name="check6"
+                            HorizontalOptions="Center"
+                            BackgroundColor="Transparent"
+                            IsChecked="{Binding listVrstaUsluge[5].Ugovorena}"
+                                Margin="0,0,0,-4">
+
+                            </CheckBox>
+
+                            <Label
+                                x:Name="label6"
+                                HorizontalTextAlignment="Center"
+                                TextColor="Gray"
+                                FontAttributes="Bold"
+                                FontSize="7">
+
+                            </Label>
+
+                        </VerticalStackLayout>
+
+                    </Frame>
+
+                </VerticalStackLayout>
+
+
+            </HorizontalStackLayout>
+
+
+
+
+
+            <VerticalStackLayout>
+                <Frame
+                    Padding="0"
+                    Margin="5,5,5,0">
+                    <HorizontalStackLayout>
+                        <Image
+                                Margin="10"
+                                Source="vrijeme.png"
+                                HorizontalOptions="Start"
+                                HeightRequest="30"></Image>
+
+                        <Label
+                            Text="trajanje"
+                            TextTransform="Uppercase"
+                            FontSize="20"
+                            TextColor="Black"
+                            Margin="0,15"
+                            VerticalTextAlignment="Center"
+                           >
+
+                        </Label>
+
+                        <Frame
+                                VerticalOptions="Center"
+                            HorizontalOptions="End"
+                                BackgroundColor="White"
+                                HeightRequest="40"
+                                WidthRequest="90"
+                                Padding="0"
+                                BorderColor="LightGray"
+                                Margin="25,2,0,0">
+                            <Entry
+                                    x:Name="Entry1"
+                                    Keyboard="Numeric"
+                                    Placeholder="dana"
+                                    FontSize="10"
+                                Margin="0,-3,0,-2"
+                                    PlaceholderColor="Black"
+                                VerticalTextAlignment="Center"
+                                    HorizontalOptions="CenterAndExpand"
+                                    TextColor="Gray"
+                                
+                                            ></Entry>
+                        </Frame>
+
+                    </HorizontalStackLayout>
+                </Frame>
+
+
+                <Frame
+                    Padding="0"
+                    Margin="5,5,5,0">
+                    <HorizontalStackLayout>
+                        <Image
+                                Margin="10"
+                                Source="ljudi.png"
+                                HorizontalOptions="Start"
+                                HeightRequest="30"></Image>
+
+                        <Label
+                            Text="zvanice"
+                            TextTransform="Uppercase"
+                            FontSize="20"
+                            TextColor="Black"
+                            Margin="0,15">
+
+                        </Label>
+
+                        <Frame
+                                VerticalOptions="Center"
+                            HorizontalOptions="End"
+                                BackgroundColor="White"
+                                HeightRequest="45"
+                                WidthRequest="95"
+                                Padding="0"
+                                BorderColor="LightGray"
+                                Margin="30,0,0,0">
+                            <Entry
+                                    x:Name="Entry2"
+                                    Keyboard="Numeric"
+                                    Placeholder="br gostiju"
+                                    FontSize="10"
+                                    PlaceholderColor="Black"
+                                    HorizontalOptions="CenterAndExpand"
+                                    TextColor="Gray"
+                                            ></Entry>
+                        </Frame>
+
+                    </HorizontalStackLayout>
+                </Frame>
+
+                <Frame
+                    Padding="0"
+                    Margin="5,5,5,0">
+                    <HorizontalStackLayout>
+                        <Image
+                                Margin="10"
+                                Source="stolica.png"
+                                HorizontalOptions="Start"
+                                HeightRequest="30"></Image>
+
+                        <Label
+                            Text="klasa"
+                            TextTransform="Uppercase"
+                            FontSize="20"
+                            TextColor="Black"
+                            Margin="0,15">
+
+                        </Label>
+
+                        <Picker
+                            x:Name="klasa"
+                            VerticalOptions="Center"
+                            HorizontalOptions="Center"
+                            Title="Klasa"
+                            FontSize="10"
+                            TitleColor="Black"
+                            ItemDisplayBinding="{Binding NazivKlase}"
+                            Margin="100,0,0,0"
+                                        ></Picker>
+
+
+                    </HorizontalStackLayout>
+                </Frame>
+
+
+                <Frame
+                    Padding="0"
+                    Margin="5,5,5,0">
+                    <HorizontalStackLayout>
+                        <Image
+                                Margin="10"
+                                Source="kalendar.png"
+                                HorizontalOptions="Start"
+                                HeightRequest="25"></Image>
+
+                        <Label
+                            Text="datum"
+                            TextTransform="Uppercase"
+                            FontSize="20"
+                            TextColor="Black"
+                            Margin="0,15">
+
+                        </Label>
+
+                        <DatePicker    
+                                    VerticalOptions="Center"
+                                    Margin="60,0,0,0"
+                                    HorizontalOptions="EndAndExpand"
+                                    x:Name="uneseniDatum"
+                                    Format="dd.M.yyyy."
+                            FontSize="10"
+                                    TextColor="Black"></DatePicker>
+
+                    </HorizontalStackLayout>
+                </Frame>
+
+
+                <Frame
+                    Padding="0"
+                    Margin="5,5,5,0">
+                    <HorizontalStackLayout>
+                        <Image
+                                Margin="10"
+                                Source="hours.png"
+                                HorizontalOptions="Start"
+                                HeightRequest="30"></Image>
+
+                        <Label
+                            Text="cjelodnevno"
+                            TextTransform="Uppercase"
+                            FontSize="18"
+                            TextColor="Black"
+                            Margin="0,15">
+
+                        </Label>
+
+                        <Switch
+                                    x:Name="EventSwitch"
+                                    OnColor="White"
+                                    ThumbColor="DimGray"
+                                    HorizontalOptions="End"
+                            Margin="2,0,0,0"/>
+
+                    </HorizontalStackLayout>
+                </Frame>
+
+
+
+
+
+
+            </VerticalStackLayout>
+
+
+            <Label
+                Margin="2,10,2,0"
+                Text="Kalkulacija ponude je informativnog karaktera!"
+                FontAttributes="Italic"
+                TextColor="Gray"
+                HorizontalTextAlignment="Center"
+                FontSize="15"
+                >
+               
+            </Label>
+
+            <Button
+                BackgroundColor="Black"
+                CornerRadius="50"
+                WidthRequest="250"
+                Text="PRIKAZI IZNOS PONUDE"
+                FontAttributes="Bold"
+                Margin="0,5,0,5"
+                Clicked="Button_Clicked"
+                >
+
+            </Button>
+
+
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
